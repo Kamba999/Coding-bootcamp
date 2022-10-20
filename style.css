@@ -1,0 +1,53 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.h1 {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+#instructors {
+background-color: blue;
+}
+
+.fundamentals {
+    background: linear-gradient(45deg, #89c2d3, #2e8ce4e7)
+}
+.javascript {
+    background: linear-gradient(45deg, #423b22, #000000, #000)
+}
+.react {
+    background: linear-gradient(45deg,#5a5f64f5, #afafc0)
+}
+.libraries {
+    background: linear-gradient(to right, #000, #000, #3de42ee7)
+}
+
+#arrow {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    background-color: #000;
+}
